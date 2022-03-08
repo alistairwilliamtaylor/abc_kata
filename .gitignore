@@ -1,0 +1,5 @@
+bin/
+obj/
+abc_kata.csproj
+Block.cs
+.vscode/
