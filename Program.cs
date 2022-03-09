@@ -28,9 +28,9 @@ var listOfSampleWords = new List<string>() {
     "A",
     "BARK",
     "BOOK",
-    "TREAT",
+    "treat",
     "COMMON",
-    "SQUAD",
+    "squad",
     "CONFUSE"
 };
 

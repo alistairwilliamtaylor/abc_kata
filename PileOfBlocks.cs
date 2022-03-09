@@ -6,7 +6,8 @@ class PileOfBlocks
     }
     private List<Block> BlocksInPile;
     public bool MakesWord(string word){
-        var letters = word.ToCharArray();
+        var wordInCaps = word.ToUpper();
+        var letters = wordInCaps.ToCharArray();
         return RecursivelySearchForSuccessfulBlockCombination(letters);
     }
     private bool RecursivelySearchForSuccessfulBlockCombination(char[] letters)
