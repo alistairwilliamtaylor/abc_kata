@@ -23,5 +23,19 @@
 };
 
 var theBlocks = new PileOfBlocks(letterBlocks);
-var theWord = "CONFUSE";
-System.Console.WriteLine(theBlocks.MakesWord(theWord));
+
+var listOfSampleWords = new List<string>() {
+    "A",
+    "BARK",
+    "BOOK",
+    "TREAT",
+    "COMMON",
+    "SQUAD",
+    "CONFUSE"
+};
+
+foreach (var word in listOfSampleWords)
+{
+    System.Console.WriteLine($">>> can_make_word(\"{word}\")");
+    System.Console.WriteLine(theBlocks.MakesWord(word));
+}
